@@ -24,11 +24,42 @@
   .PomodoroClock-settings {
     display: flex;
     justify-content: center;
+  }
 
-    div {
-      margin: 0 10px;
-    }
+  .PomodoroClock-clock {
+    text-align: center;
+  }
 
-    .break {}
+  .PomodoroClock-controls > i {
+    margin: 0 5px;
+  }
+}
+
+.SetLength {
+  margin: 10px;
+  text-align: center;
+
+  h2 {
+    color: firebrick;
+  }
+
+  span {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  button {
+    border: none;
+    background-color: deepskyblue;
+  }
+
+  button:focus {
+    outline: none;
+    border-bottom: 2px solid #fff;
+  }
+
+  i {
+    font-size: 1.3rem;
+    margin: 0 10px;
   }
 }

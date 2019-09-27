@@ -43,7 +43,40 @@
           justify-content: center;
 }
 
-.PomodoroClock .PomodoroClock-settings div {
+.PomodoroClock .PomodoroClock-clock {
+  text-align: center;
+}
+
+.PomodoroClock .PomodoroClock-controls > i {
+  margin: 0 5px;
+}
+
+.SetLength {
+  margin: 10px;
+  text-align: center;
+}
+
+.SetLength h2 {
+  color: firebrick;
+}
+
+.SetLength span {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.SetLength button {
+  border: none;
+  background-color: deepskyblue;
+}
+
+.SetLength button:focus {
+  outline: none;
+  border-bottom: 2px solid #fff;
+}
+
+.SetLength i {
+  font-size: 1.3rem;
   margin: 0 10px;
 }
 /*# sourceMappingURL=styles.css.map */
